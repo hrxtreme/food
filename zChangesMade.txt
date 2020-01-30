@@ -1,0 +1,16 @@
+20 Jan 2020 -	Food status wasnt working. Now working
+		Minor changes to code
+		Changed database according us
+21 Jan 2020 	Removed redundant things(app links n all) from index.php
+		Minor changes for website looks
+22 Jan 2020	Footer and title update
+23 Jan 		Minor footer changes 
+		And register page changes added video
+27 jan 		Minor changes to register page/ FAQ
+		added contact us mailto email
+		added proper place holders in place
+		Added all favicon and titles - shubh
+		Added all logos- Shubh
+		updated proper footer on admin side -shubh 
+		Changed all stores and restaurant to Canteen
+28 Jan 		Changed all $ currency to ₹ currency
