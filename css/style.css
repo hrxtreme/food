@@ -440,13 +440,13 @@ hr {
 /********* top links part ***********/
 
 .top-links {
-    padding: 15px 0;
+    padding: 25px 0;
     border-bottom: 1px solid #eaebeb;
 }
 
 .top-links ul {
-    margin-bottom: 0;
-}
+    margin-bottom:0;
+    }
 
 .link-item a {
     font-size: 12px;
