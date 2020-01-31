@@ -45,8 +45,8 @@ session_start(); //start temp session until logout/browser closed
 							<?php
 						if(empty($_SESSION["user_id"])) // if user is not login
 							{
-								echo '<li class="nav-item"><a href="login.php" class="nav-link active">login</a> </li>
-                              <li class="nav-item"><a href="registration.php" class="nav-link active">signup</a> </li>
+								echo '<li class="nav-item"><a href="login.php" class="nav-link active">Login</a> </li>
+                              <li class="nav-item"><a href="registration.php" class="nav-link active">Signup</a> </li>
                               <!--  <li class="nav-item"><a href="/food/admin/index.php" class="nav-link active">Admin</a> </li> -->';
 							}
 						else

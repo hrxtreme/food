@@ -177,8 +177,8 @@ only screen and (max-width: 760px),
 							<?php
 						if(empty($_SESSION["user_id"]))
 							{
-								echo '<li class="nav-item"><a href="login.php" class="nav-link active">login</a> </li>
-							  <li class="nav-item"><a href="registration.php" class="nav-link active">signup</a> </li>';
+								echo '<li class="nav-item"><a href="login.php" class="nav-link active">Login</a> </li>
+							  <li class="nav-item"><a href="registration.php" class="nav-link active">Signup</a> </li>';
 							}
 						else
 							{
