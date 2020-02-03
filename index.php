@@ -79,7 +79,7 @@ session_start(); //start temp session until logout/browser closed
                                 <div class="form-group">
                                     <input type="text" class="form-control form-control-lg" id="exampleInputAmount" placeholder="I would like to eat...."> </div>
                             </div>
-                            <button onclick="location.href='restaurants.html'" type="button" class="btn theme-btn btn-lg">Search food</button>
+                            <button onclick="location.href='restaurants.php'" type="button" class="btn theme-btn btn-lg">Search food</button>
                         </form>
                     </div>
                     <div class="steps">
