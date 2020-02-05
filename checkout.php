@@ -25,7 +25,8 @@ else{
 														mysqli_query($db,$SQL);
 														
 														$success = "Thankyou! Your Order Placed successfully!";
-
+                                                       // alert ("Thankyou! Your Order Placed successfully!");
+                                                        header("Location:index.php");
 														
 														
 													}
@@ -300,11 +301,7 @@ else{
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/headroom.js"></script>
     <script src="js/foodpicky.min.js"></script>
-    <!-- <script>
-         setTimeout(function(){
-            window.location.href = 'http://10.206.35.101:8080/index.php';
-         }, 1000);
-      </script> -->
+   
 </body>
 
 </html>
