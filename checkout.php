@@ -24,9 +24,9 @@ else{
 						
 														mysqli_query($db,$SQL);
 														
-														$success = "Thankyou! Your Order Placed successfully!";
+														$success = "Thankyou ! Your Order Placed successfully !Redirecting now !!";
                                                        // alert ("Thankyou! Your Order Placed successfully!");
-                                                        header("Location:index.php");
+                                                        header("refresh: 4; url=index.php");
 														
 														
 													}
@@ -134,7 +134,7 @@ else{
 											   
                                                     <tr>
                                                         <td>Cart Subtotal</td>
-                                                        <td> <?php echo "$".$item_total; ?></td>
+                                                        <td> <?php echo "₹".$item_total; ?></td>
                                                     </tr>
                                                     <tr>
                                                         <td>Shipping &amp; Handling</td>
@@ -142,7 +142,7 @@ else{
                                                     </tr>
                                                     <tr>
                                                         <td class="text-color"><strong>Total</strong></td>
-                                                        <td class="text-color"><strong> <?php echo "$".$item_total; ?></strong></td>
+                                                        <td class="text-color"><strong> <?php echo "₹".$item_total; ?></strong></td>
                                                     </tr>
                                                 </tbody>
 												
