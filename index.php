@@ -354,7 +354,7 @@ session_start(); //start temp session until logout/browser closed
                         <h5>Pages</h5>
                         <ul>
                             <li><a href="#">Search results page</a> </li>
-                            <li><a href="#">User Sing Up Page</a> </li>
+                            <li><a href="#">User Sign Up Page</a> </li>
                             <li><a href="#">Pricing page</a> </li>
                             <li><a href="#">Make order</a> </li>
                             <li><a href="#">Add to cart</a> </li>
