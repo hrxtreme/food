@@ -412,6 +412,20 @@ session_start(); //start temp session until logout/browser closed
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <script src="js/jquery.min.js"></script>
+	<!-- neha start code -->
+    <script type="text/javascript">    
+    $(document).ready(function() {    
+    $('#exampleInputAmount').keypress(function(e) {
+    if (e.which === 13)
+     {
+        setTimeout(function() {
+  window.location.href = "restaurants.php";
+}, 1);   }
+    })
+});
+</script>
+<!-- neha end code -->
+	
     <script src="js/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/animsition.min.js"></script>
