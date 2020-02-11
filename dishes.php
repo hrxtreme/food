@@ -383,7 +383,7 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                                 </div>
                                 <div class="col-xs-12 col-sm-4 address color-gray">
                                     <h5>Address</h5>
-                                    <p>Concept design of oline food order and deliveye,planned as restaurant directory</p>
+                                    <p>Kumar, Cerebrum IT Park, B3-5th & 6th floor, Marigold complex, Cybage Tower Rd, Kalyani Nagar, Pune, Maharashtra 411014</p>
                                     <h5>Phone: <a href="tel:+080000012222">080 000012 222</a></h5> </div>
                                 <div class="col-xs-12 col-sm-5 additional-info color-gray">
                                     <h5>Addition informations</h5>
