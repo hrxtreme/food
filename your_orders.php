@@ -370,39 +370,39 @@ only screen and (max-width: 760px),
                         <h5>About Us</h5>
                         <ul>
                             <li><a href="#">About us</a> </li>
-                            <li><a href="#">History</a> </li>
                             <li><a href="#">Our Team</a> </li>
-                            <li><a href="#">We are hiring</a> </li>
+                            
                         </ul>
                     </div>
                      <div class="col-xs-12 col-sm-2 how-it-works-links color-gray">
                         <h5>How it Works</h5>
                         <ul>
-                            <li><a href="#">Enter your location</a> </li>
-                            <li><a href="#">Choose restaurant</a> </li>
-                            <li><a href="#">Choose meal</a> </li>
-                            <li><a href="#">Pay via credit card</a> </li>
-                            <li><a href="#">Wait for delivery</a> </li>
+                           <!-- <li><a href="#">Enter your location</a> </li> -->
+                            <li><a href="restaurants.php">Choose restaurant</a> </li>
+                            <li><a href="restaurants.php">Pricing page</a> </li>
+                            <li><a href="restaurants.php">Make order</a> </li>
+                            <li><a href="restaurants.php">Add to cart</a> </li>
+                           <!--  <li><a href="#">Choose meal</a> </li> -->
+                            <li><a href="https://pay.google.com/about/learn/">Pay via UPI or Cash </a> </li> 
+                            <li><a href="restaurants.php">Wait for delivery</a> </li>
                         </ul>
                     </div> 
                      <div class="col-xs-12 col-sm-2 pages color-gray">
                         <h5>Pages</h5>
                         <ul>
-                            <li><a href="#">Search results page</a> </li>
-                            <li><a href="#">User Sing Up Page</a> </li>
-                            <li><a href="#">Pricing page</a> </li>
-                            <li><a href="#">Make order</a> </li>
-                            <li><a href="#">Add to cart</a> </li>
+                            <li><a href="index.php">Search results page</a> </li>
+                            <li><a href="registration.php">User Sign Up Page</a> </li>
+                            
                         </ul>
                     </div>
                     <div class="col-xs-12 col-sm-3 popular-locations color-gray">
                         <h5>Popular locations</h5>
                         <ul>
-                            <li><a href="#">Pune</a> </li>
-                            <li><a href="#">Mumbai</a> </li>
-                           
+                            <li><a href="https://www.ubisoft.com/en-US/studio/pune.aspx">Pune</a> </li>
+                            <li><a href="https://www.ubisoft.com/en-US/studio/mumbai.aspx">Mumbai</a> </li>
+                          
                         </ul>
-                    </div> 
+                    </div>
                     </div>
                     <!-- top footer ends -->
                     <!-- bottom footer statrs -->

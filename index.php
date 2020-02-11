@@ -265,7 +265,7 @@ session_start(); //start temp session until logout/browser closed
 																<div class="col-xs-12 col-sm-9 col-md-12 col-lg-9">
 																	<h5><a href="dishes.php?res_id='.$rows['rs_id'].'" >'.$rows['title'].'</a></h5> <span>'.$rows['address'].'</span>
 																	<div class="bottom-part">
-																		<div class="cost"><i class="fa fa-check"></i> Min $ 10,00</div>
+																		<div class="cost"><i class="fa fa-check"></i> Min ₹ 10,00</div>
 																		<div class="mins"><i class="fa fa-motorcycle"></i> 30 min</div>
 																		<div class="ratings"> <span>
 																				<i class="fa fa-star"></i>
@@ -309,7 +309,6 @@ session_start(); //start temp session until logout/browser closed
                         <h5>About Us</h5>
                         <ul>
                             <li><a href="#">About us</a> </li>
-                            
                             <li><a href="#">Our Team</a> </li>
                             
                         </ul>
@@ -319,18 +318,18 @@ session_start(); //start temp session until logout/browser closed
                         <ul>
                            <!-- <li><a href="#">Enter your location</a> </li> -->
                             <li><a href="restaurants.php">Choose restaurant</a> </li>
-                            <li><a href="#">Pricing page</a> </li>
-                            <li><a href="#">Make order</a> </li>
-                            <li><a href="#">Add to cart</a> </li>
+                            <li><a href="restaurants.php">Pricing page</a> </li>
+                            <li><a href="restaurants.php">Make order</a> </li>
+                            <li><a href="restaurants.php">Add to cart</a> </li>
                            <!--  <li><a href="#">Choose meal</a> </li> -->
-                           <!-- <li><a href="#">Pay via credit card</a> </li> -->
-                            <li><a href="#">Wait for delivery</a> </li>
+                            <li><a href="https://pay.google.com/about/learn/">Pay via UPI or Cash </a> </li> 
+                            <li><a href="restaurants.php">Wait for delivery</a> </li>
                         </ul>
                     </div> 
                      <div class="col-xs-12 col-sm-2 pages color-gray">
                         <h5>Pages</h5>
                         <ul>
-                            <li><a href="#">Search results page</a> </li>
+                            <li><a href="index.php">Search results page</a> </li>
                             <li><a href="registration.php">User Sign Up Page</a> </li>
                             
                         </ul>
@@ -338,8 +337,8 @@ session_start(); //start temp session until logout/browser closed
                     <div class="col-xs-12 col-sm-3 popular-locations color-gray">
                         <h5>Popular locations</h5>
                         <ul>
-                            <li><a href="#">Pune</a> </li>
-                            <li><a href="#">Mumbai</a> </li>
+                            <li><a href="https://www.ubisoft.com/en-US/studio/pune.aspx">Pune</a> </li>
+                            <li><a href="https://www.ubisoft.com/en-US/studio/mumbai.aspx">Mumbai</a> </li>
                           
                         </ul>
                     </div> 
