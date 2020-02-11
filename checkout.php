@@ -27,6 +27,7 @@ else{
 														$success = "Thankyou ! Your Order Placed successfully !Redirecting now !!";
                                                        // alert ("Thankyou! Your Order Placed successfully!");
                                                         header("refresh: 4; url=index.php");
+														unset($_SESSION["cart_item"]);
 														
 														
 													}
