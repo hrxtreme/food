@@ -24,9 +24,9 @@ else{
 						
 														mysqli_query($db,$SQL);
 														
-														$success = "Thankyou ! Your Order Placed successfully !Redirecting now !!";
+														$success = "Thankyou ! Your Order Placed successfully!<p>Redirecting in <span id='counter'>5</span> second(s)</p>";
                                                        // alert ("Thankyou! Your Order Placed successfully!");
-                                                        header("refresh: 4; url=index.php");
+                                                        header("refresh: 5; url=index.php");
 														unset($_SESSION["cart_item"]);
 														
 														
@@ -277,7 +277,16 @@ else{
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/headroom.js"></script>
     <script src="js/foodpicky.min.js"></script>
-   
+    <script type='text/javascript'>
+                            function countdown() {
+                              var i = document.getElementById('counter');
+                              if (parseInt(i.innerHTML)<=0) {
+                                location.href = 'index.php';
+                              }
+                              i.innerHTML = parseInt(i.innerHTML)-1;
+                            }
+                            setInterval(function(){ countdown(); },1000);
+                            </script>'";
 </body>
 
 </html>

@@ -422,7 +422,7 @@ if(isset($_POST['submit'] )) {
 
         if (reg.test(emailField.value) == false) 
         {
-            alert('Invalid Email Address');
+            alert('Enter valid Ubisoft Email Address');
             return false;
         }
 
