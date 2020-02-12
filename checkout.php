@@ -138,8 +138,8 @@ else{
                                                         <td> <?php echo "₹".$item_total; ?></td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Shipping &amp; Handling</td>
-                                                        <td>free shipping</td>
+                                                        <td>Taxes</td>
+                                                        <td>  --  </td>
                                                     </tr>
                                                     <tr>
                                                         <td class="text-color"><strong>Total</strong></td>
@@ -155,17 +155,14 @@ else{
                                     </div>
                                     <!--cart summary-->
                                     <div class="payment-option">
-                                        <ul class=" list-unstyled">
-                                            <li>
-                                                <label class="custom-control custom-radio  m-b-20">
-                                                    <input name="mod" id="radioStacked1" checked value="COD" type="radio" class="custom-control-input"> <span class="custom-control-indicator"></span> <span class="custom-control-description">Payment on delivery &emsp;Click here for QR code</span>
-                                                    <br> <span>Please pay while you pickup your food in the canteen.</span> </label>
-                                            </li>
-                                            <li>
-                                                <label class="custom-control custom-radio  m-b-10">
-                                                    <input name="mod"  type="radio" value="paypal" disabled class="custom-control-input"> <span class="custom-control-indicator"></span> <span class="custom-control-description">Paypal <img src="images/paypal.jpg" alt="" width="90"></span> </label>
-                                            </li>
-                                        </ul>
+                                                <div style = "width:100%; " class="custom-control custom-radio  ">
+                                                    <input name="mod" id="radioStacked1" checked value="COD" type="radio" class="custom-control-input"> <span class="custom-control-indicator"></span> <span class="custom-control-description">Payment on delivery </span>
+                                                    &emsp;<span style = "margin-left:-800px" class="pull-right">Click here for QR code </span>
+                                                    <br> <span >Please pay while you pickup your food in the canteen.</span>
+                                            </div>
+                                            <!-- <li class="custom-control custom-radio ">
+                                                    <input name="mod"  type="radio" value="paypal" disabled class="custom-control-input"> <span class="custom-control-indicator"></span> <span class="custom-control-description">Paypal <img src="images/paypal.jpg" alt="" width="90"></span>
+                                            </li> -->
                                         <p class="text-xs-center"> <input type="submit" onclick="return confirm('Are you sure?');" name="submit"  class="btn btn-outline-success btn-block" value="Order now"> </p>
                                     </div>
 									</form>
