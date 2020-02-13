@@ -152,46 +152,42 @@ else{
                                                         <td class="text-color"><strong> <?php echo "₹".$item_total; ?></strong></td>
                                                     </tr>
                                                 </tbody>
-												
-												
-												
-												
                                             </table>
                                         </div>
                                     </div>
                                     <!--cart summary-->
                                     <div class="payment-option">
-                                                <div style = "width:100%;padding-bottom: 20px;" " class="custom-control custom-radio  ">
+                                                <div style = "width:100%;padding-bottom: 20px;padding-top: 20px;" " class="custom-control custom-radio  ">
                                                     <input name="mod" id="radioStacked1" checked value="COD" type="radio" class="custom-control-input"> 
-                                                    <span class="custom-control-indicator"></span> <span class="custom-control-description">Payment on delivery </span>
+                                                    <span class="custom-control-indicator" style="top: 20px;"></span> <span class="custom-control-description">Payment on delivery </span>
                                                     <span style = "margin-left:-700px" class="pull-right"><a href="images/googlepay.jpg">Pay Via UPI </a> </span>
                                                     <span style = "margin-left:-700px" class="pull-right"> <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open QR Code</button> </span>
-                                                    <br> <span >Please pay while you pickup your food in the canteen.</span>
+                                                    <!-- <br> <span >Please pay while you pick-up your food in the canteen.</span> -->
                                             </div>
                                             <!-- <li class="custom-control custom-radio ">
                                                     <input name="mod"  type="radio" value="paypal" disabled class="custom-control-input"> <span class="custom-control-indicator"></span> <span class="custom-control-description">Paypal <img src="images/paypal.jpg" alt="" width="90"></span>
                                             </li> -->
                                         <p class="text-xs-center"> <input type="submit" onclick="return confirm('Are you sure?');" name="submit"  class="btn btn-outline-success btn-block" value="Order now"> </p>
-    <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">UPI QR Code</h4>
-        </div>
-        <div class="modal-body">
-          <p><img src="images/googlepay.jpg" alt="GooglePay"></p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-      </div></div></div>
-      
-                                    
+                                        <!-- QR Code Modal -->
+                                    <div class="modal fade" id="myModal" role="dialog">
+                                        <div class="modal-dialog">
+                                        
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">UPI QR Code</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                            <p><img src="images/googlepay.jpg" alt="GooglePay"></p>
+                                            </div>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>                        
+
                                     </div>
 									</form>
                                 </div>
