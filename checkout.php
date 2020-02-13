@@ -155,15 +155,16 @@ else{
                                     </div>
                                     <!--cart summary-->
                                     <div class="payment-option">
-                                                <div style = "width:100%; " class="custom-control custom-radio  ">
+                                                <div style = "width:100%;padding-bottom: 20px;" " class="custom-control custom-radio  ">
                                                     <input name="mod" id="radioStacked1" checked value="COD" type="radio" class="custom-control-input"> <span class="custom-control-indicator"></span> <span class="custom-control-description">Payment on delivery </span>
-                                                    &emsp;<span style = "margin-left:-800px" class="pull-right">Click here for QR code </span>
+                                                    <span style = "margin-left:-700px" class="pull-right"><a href="images/googlepay.jpg">Pay Via UPI </a> </span>
                                                     <br> <span >Please pay while you pickup your food in the canteen.</span>
                                             </div>
                                             <!-- <li class="custom-control custom-radio ">
                                                     <input name="mod"  type="radio" value="paypal" disabled class="custom-control-input"> <span class="custom-control-indicator"></span> <span class="custom-control-description">Paypal <img src="images/paypal.jpg" alt="" width="90"></span>
                                             </li> -->
                                         <p class="text-xs-center"> <input type="submit" onclick="return confirm('Are you sure?');" name="submit"  class="btn btn-outline-success btn-block" value="Order now"> </p>
+                                        <!-- <img src="images/googlepay.jpg" alt="googlepay"> -->
                                     </div>
 									</form>
                                 </div>
