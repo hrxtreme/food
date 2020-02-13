@@ -157,7 +157,7 @@ else{
                                     <div class="payment-option">
                                                 <div style = "width:100%;padding-bottom: 20px;" " class="custom-control custom-radio  ">
                                                     <input name="mod" id="radioStacked1" checked value="COD" type="radio" class="custom-control-input"> <span class="custom-control-indicator"></span> <span class="custom-control-description">Payment on delivery </span>
-                                                    <span style = "margin-left:-700px" class="pull-right"><a href="images/googlepay.jpg">Pay Via UPI </a> </span>
+                                                    <span style = "margin-left:-700px" class="pull-right"><a href="images/googlepay.jpg" target="_blank">Pay Via UPI </a> </span>
                                                     <br> <span >Please pay while you pickup your food in the canteen.</span>
                                             </div>
                                             <!-- <li class="custom-control custom-radio ">
