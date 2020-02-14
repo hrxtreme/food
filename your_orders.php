@@ -363,10 +363,10 @@ only screen and (max-width: 760px),
             <footer class="footer">
                 <div class="container">
                     <!-- top footer statrs -->
-                    <div class="row top-footer">
-                        <div class="col-xs-12 col-sm-3 footer-logo-block color-gray">
-                        <a href="#"> <center><img src="images/ubieats_sq.png" alt="Footer logo" height= "200" weidth="200"> </a> <span>Order Delivery &amp; Take-Out </span> </center> </div>
-                        <div class="col-xs-12 col-sm-2 about color-gray">
+                <div class="row top-footer">
+                    <div class="col-xs-12 col-sm-3 footer-logo-block color-gray">
+                    <a href="#"> <center><img src="images/ubieats_sq.png" alt="Footer logo" height= "200" weidth="200"> </a> <span>Order Delivery &amp; Take-Out </span> </center> </div>
+                    <div class="col-xs-12 col-sm-2 about color-gray">
                         <h5>About Us</h5>
                         <ul>
                             <li><a href="#">About us</a> </li>
@@ -378,20 +378,19 @@ only screen and (max-width: 760px),
                         <h5>How it Works</h5>
                         <ul>
                            <!-- <li><a href="#">Enter your location</a> </li> -->
-                            <li><a href="restaurants.php">Choose restaurant</a> </li>
-                            <li><a href="restaurants.php">Pricing page</a> </li>
-                            <li><a href="restaurants.php">Make order</a> </li>
-                            <li><a href="restaurants.php">Add to cart</a> </li>
-                           <!--  <li><a href="#">Choose meal</a> </li> -->
+                           <li><a href="registration.php">User Sign Up Page</a> </li> 
                             <li><a href="https://pay.google.com/about/learn/">Pay via UPI or Cash </a> </li> 
-                            <li><a href="restaurants.php">Wait for delivery</a> </li>
+                           
                         </ul>
                     </div> 
                      <div class="col-xs-12 col-sm-2 pages color-gray">
                         <h5>Pages</h5>
                         <ul>
                             <li><a href="index.php">Search results page</a> </li>
-                            <li><a href="registration.php">User Sign Up Page</a> </li>
+                            <li><a href="https://www.facebook.com/UbisoftIndiaStudios/">FaceBook</a> </li>
+                            <li><a href="https://www.instagram.com/ubisoftindiastudios/?hl=en">Instagram</a> </li>
+                            <li><a href="https://www.youtube.com/channel/UCYtwZG5LFaSw6RBS158V5sQ">Youtube</a> </li>
+                            
                             
                         </ul>
                     </div>
@@ -402,45 +401,46 @@ only screen and (max-width: 760px),
                             <li><a href="https://www.ubisoft.com/en-US/studio/mumbai.aspx">Mumbai</a> </li>
                           
                         </ul>
-                    </div>
-                    </div>
-                    <!-- top footer ends -->
-                    <!-- bottom footer statrs -->
-                    <div class="row bottom-footer">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-3 payment-options color-gray">
-                                    <h5>Payment Options</h5>
-                                    <ul>
-                                        <li>
-                                            <a href="#"> <img src="images/paypal.png" alt="Paypal"> </a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> <img src="images/mastercard.png" alt="Mastercard"> </a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> <img src="images/maestro.png" alt="Maestro"> </a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> <img src="images/stripe.png" alt="Stripe"> </a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> <img src="images/bitcoin.png" alt="Bitcoin"> </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-xs-12 col-sm-4 address color-gray">
-                                    <h5>Address</h5>
-                                    <p>Kumar, Cerebrum IT Park, B3-5th & 6th floor, Marigold complex, Cybage Tower Rd, Kalyani Nagar, Pune, Maharashtra 411014</p>
-                                    <h5>Phone: <a href="tel:+080000012222">080 000012 222</a></h5> </div>
-                                <div class="col-xs-12 col-sm-5 additional-info color-gray">
-                                    <h5>Addition informations</h5>
-                                    <p>Join the thousands of other Ubisoft employees who benefit from having their menus on their Desk</p>
-                                </div>
-                            </div>
+                    </div> 
+                </div>
+                <!-- top footer ends -->
+                <!-- bottom footer statrs -->
+                <div class="bottom-footer">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-3 payment-options color-gray">
+                            <h5>Payment Options</h5>
+                            <ul>
+                                <li>
+                                   <img src="images/Gpay.png" alt="Gpay"> </a>
+                                </li>
+                                <li>
+                                    <img src="images/UPI.png" alt="UPI"> </a>
+                                </li>
+                                <li>
+                                    <img src="images/PayTM.png" alt="PayTM"> </a>
+                                </li>
+                                <li>
+                                    <img src="images/PhonePay.png" alt="PhonePay"> </a>
+                                </li>
+                                <li>
+                                    <img src="images/Rupee.png" alt="Rupee"> </a>
+                                </li>
+                                <li>
+                                    <img src="images/mobikwik.png" alt="mobikwik"> </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 address color-gray">
+                            <h5>Address</h5>
+                            <p>Kumar, Cerebrum IT Park, B3-5th & 6th floor, Marigold complex, Cybage Tower Rd, Kalyani Nagar, Pune, Maharashtra 411014</p>
+                            <h5>Phone: <a href="tel:+080000012222">080 000012 222</a></h5> </div>
+                        <div class="col-xs-12 col-sm-5 additional-info color-gray">
+                            <h5>Addition informations</h5>
+                            <p>Join the thousands of other Ubisoft employees who benefit from having their menus on their Desk</p>
                         </div>
                     </div>
-                    <!-- bottom footer ends -->
+                </div>
+                <!-- bottom footer ends -->
                 </div>
             </footer>
             <!-- end:Footer -->

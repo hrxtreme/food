@@ -42,6 +42,7 @@ else{
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="#">
     <title>UbiEats -Food Ordering for Ubisoft</title>
     <!-- Bootstrap core CSS -->
@@ -49,6 +50,11 @@ else{
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animsition.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
+    
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet"> 
     
@@ -146,25 +152,43 @@ else{
                                                         <td class="text-color"><strong> <?php echo "₹".$item_total; ?></strong></td>
                                                     </tr>
                                                 </tbody>
-												
-												
-												
-												
                                             </table>
                                         </div>
                                     </div>
                                     <!--cart summary-->
                                     <div class="payment-option">
-                                                <div style = "width:100%;padding-bottom: 20px;" " class="custom-control custom-radio  ">
-                                                    <input name="mod" id="radioStacked1" checked value="COD" type="radio" class="custom-control-input"> <span class="custom-control-indicator"></span> <span class="custom-control-description">Payment on delivery </span>
-                                                    <span style = "margin-left:-700px" class="pull-right"><a href="images/googlepay.jpg" target="_blank">Pay Via UPI </a> </span>
-                                                    <br> <span >Please pay while you pickup your food in the canteen.</span>
+                                                <div style = "width:100%;padding-bottom: 20px;padding-top: 20px;" " class="custom-control custom-radio  ">
+                                                    <input name="mod" id="radioStacked1" checked value="COD" type="radio" class="custom-control-input"> 
+                                                    <span class="custom-control-indicator" style="top: 20px;"></span> <span class="custom-control-description">Payment on delivery </span>
+                                                    <span style = "margin-left:-700px" class="pull-right"><a href="images/googlepay.jpg">Pay Via UPI </a> </span>
+                                                    <span style = "margin-left:-700px" class="pull-right"> <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open QR Code</button> </span>
+                                                    <!-- <br> <span >Please pay while you pick-up your food in the canteen.</span> -->
                                             </div>
                                             <!-- <li class="custom-control custom-radio ">
                                                     <input name="mod"  type="radio" value="paypal" disabled class="custom-control-input"> <span class="custom-control-indicator"></span> <span class="custom-control-description">Paypal <img src="images/paypal.jpg" alt="" width="90"></span>
                                             </li> -->
-                                        <p class="text-xs-center"> <input type="submit" onclick="return confirm('Are you sure?');" name="submit"  class="btn btn-outline-success btn-block" value="Order now"> </p>
-                                        <!-- <img src="images/googlepay.jpg" alt="googlepay"> -->
+                                            </div>
+                                        <p class="text-xs-center" style="border-style:solid ;border-width:1px; color:#5cb85c"> <input type="submit"  onclick="return confirm('Are you sure?');" name="submit"  class="btn btn-outline-success btn-block" value="Order Now"> </p>
+                                        <!-- QR Code Modal -->
+                                    <div class="modal fade" id="myModal" role="dialog">
+                                        <div class="modal-dialog">
+                                        
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">UPI QR Code</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                            <p><img src="images/googlepay.jpg" alt="GooglePay"></p>
+                                            </div>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>                        
+
                                     </div>
 									</form>
                                 </div>
@@ -179,10 +203,10 @@ else{
             <footer class="footer">
                 <div class="container">
                     <!-- top footer statrs -->
-                    <div class="row top-footer">
-                        <div class="col-xs-12 col-sm-3 footer-logo-block color-gray">
-                        <a href="#"> <center><img src="images/ubieats_sq.png" alt="Footer logo" height= "200" weidth="200"> </a> <span>Order Delivery &amp; Take-Out </span> </center> </div>
-                        <div class="col-xs-12 col-sm-2 about color-gray">
+                <div class="row top-footer">
+                    <div class="col-xs-12 col-sm-3 footer-logo-block color-gray">
+                    <a href="#"> <center><img src="images/ubieats_sq.png" alt="Footer logo" height= "200" weidth="200"> </a> <span>Order Delivery &amp; Take-Out </span> </center> </div>
+                    <div class="col-xs-12 col-sm-2 about color-gray">
                         <h5>About Us</h5>
                         <ul>
                             <li><a href="#">About us</a> </li>
@@ -194,20 +218,19 @@ else{
                         <h5>How it Works</h5>
                         <ul>
                            <!-- <li><a href="#">Enter your location</a> </li> -->
-                            <li><a href="restaurants.php">Choose restaurant</a> </li>
-                            <li><a href="restaurants.php">Pricing page</a> </li>
-                            <li><a href="restaurants.php">Make order</a> </li>
-                            <li><a href="restaurants.php">Add to cart</a> </li>
-                           <!--  <li><a href="#">Choose meal</a> </li> -->
+                           <li><a href="registration.php">User Sign Up Page</a> </li> 
                             <li><a href="https://pay.google.com/about/learn/">Pay via UPI or Cash </a> </li> 
-                            <li><a href="restaurants.php">Wait for delivery</a> </li>
+                           
                         </ul>
                     </div> 
                      <div class="col-xs-12 col-sm-2 pages color-gray">
                         <h5>Pages</h5>
                         <ul>
                             <li><a href="index.php">Search results page</a> </li>
-                            <li><a href="registration.php">User Sign Up Page</a> </li>
+                            <li><a href="https://www.facebook.com/UbisoftIndiaStudios/">FaceBook</a> </li>
+                            <li><a href="https://www.instagram.com/ubisoftindiastudios/?hl=en">Instagram</a> </li>
+                            <li><a href="https://www.youtube.com/channel/UCYtwZG5LFaSw6RBS158V5sQ">Youtube</a> </li>
+                            
                             
                         </ul>
                     </div>
@@ -218,45 +241,46 @@ else{
                             <li><a href="https://www.ubisoft.com/en-US/studio/mumbai.aspx">Mumbai</a> </li>
                           
                         </ul>
-                    </div>
-                    </div>
-                    <!-- top footer ends -->
-                    <!-- bottom footer statrs -->
-                    <div class="row bottom-footer">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-3 payment-options color-gray">
-                                    <h5>Payment Options</h5>
-                                    <ul>
-                                        <li>
-                                            <a href="#"> <img src="images/paypal.png" alt="Paypal"> </a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> <img src="images/mastercard.png" alt="Mastercard"> </a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> <img src="images/maestro.png" alt="Maestro"> </a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> <img src="images/stripe.png" alt="Stripe"> </a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> <img src="images/bitcoin.png" alt="Bitcoin"> </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-xs-12 col-sm-4 address color-gray">
-                                    <h5>Address</h5>
-                                    <p>Kumar, Cerebrum IT Park, B3-5th & 6th floor, Marigold complex, Cybage Tower Rd, Kalyani Nagar, Pune, Maharashtra 411014</p>
-                                    <h5>Phone: <a href="tel:+080000012222">080 000012 222</a></h5> </div>
-                                <div class="col-xs-12 col-sm-5 additional-info color-gray">
-                                    <h5>Addition informations</h5>
-                                    <p>Join the thousands of other Ubisoft employees who benefit from having their menus on their Desk</p>
-                                </div>
-                            </div>
+                    </div> 
+                </div>
+                <!-- top footer ends -->
+                <!-- bottom footer statrs -->
+                <div class="bottom-footer">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-3 payment-options color-gray">
+                            <h5>Payment Options</h5>
+                            <ul>
+                                <li>
+                                   <img src="images/Gpay.png" alt="Gpay"> </a>
+                                </li>
+                                <li>
+                                    <img src="images/UPI.png" alt="UPI"> </a>
+                                </li>
+                                <li>
+                                    <img src="images/PayTM.png" alt="PayTM"> </a>
+                                </li>
+                                <li>
+                                    <img src="images/PhonePay.png" alt="PhonePay"> </a>
+                                </li>
+                                <li>
+                                    <img src="images/Rupee.png" alt="Rupee"> </a>
+                                </li>
+                                <li>
+                                    <img src="images/mobikwik.png" alt="mobikwik"> </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 address color-gray">
+                            <h5>Address</h5>
+                            <p>Kumar, Cerebrum IT Park, B3-5th & 6th floor, Marigold complex, Cybage Tower Rd, Kalyani Nagar, Pune, Maharashtra 411014</p>
+                            <h5>Phone: <a href="tel:+080000012222">080 000012 222</a></h5> </div>
+                        <div class="col-xs-12 col-sm-5 additional-info color-gray">
+                            <h5>Addition informations</h5>
+                            <p>Join the thousands of other Ubisoft employees who benefit from having their menus on their Desk</p>
                         </div>
                     </div>
-                    <!-- bottom footer ends -->
+                </div>
+                <!-- bottom footer ends -->
                 </div>
             </footer>
             <!-- end:Footer -->

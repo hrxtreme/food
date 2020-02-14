@@ -317,9 +317,9 @@ session_start(); //start temp session until logout/browser closed
                         <h5>How it Works</h5>
                         <ul>
                            <!-- <li><a href="#">Enter your location</a> </li> -->
-                            <li><a href="restaurants.php">Choose restaurant</a> </li>
+                           <li><a href="registration.php">User Sign Up Page</a> </li> 
                             <li><a href="https://pay.google.com/about/learn/">Pay via UPI or Cash </a> </li> 
-                            <li><a href="registration.php">User Sign Up Page</a> </li>
+                           
                         </ul>
                     </div> 
                      <div class="col-xs-12 col-sm-2 pages color-gray">
@@ -350,19 +350,22 @@ session_start(); //start temp session until logout/browser closed
                             <h5>Payment Options</h5>
                             <ul>
                                 <li>
-                                    <a href="#"> <img src="images/paypal.png" alt="Paypal"> </a>
+                                   <img src="images/Gpay.png" alt="Gpay"> </a>
                                 </li>
                                 <li>
-                                    <a href="#"> <img src="images/mastercard.png" alt="Mastercard"> </a>
+                                    <img src="images/UPI.png" alt="UPI"> </a>
                                 </li>
                                 <li>
-                                    <a href="#"> <img src="images/maestro.png" alt="Maestro"> </a>
+                                    <img src="images/PayTM.png" alt="PayTM"> </a>
                                 </li>
                                 <li>
-                                    <a href="#"> <img src="images/stripe.png" alt="Stripe"> </a>
+                                    <img src="images/PhonePay.png" alt="PhonePay"> </a>
                                 </li>
                                 <li>
-                                    <a href="#"> <img src="images/bitcoin.png" alt="Bitcoin"> </a>
+                                    <img src="images/Rupee.png" alt="Rupee"> </a>
+                                </li>
+                                <li>
+                                    <img src="images/mobikwik.png" alt="mobikwik"> </a>
                                 </li>
                             </ul>
                         </div>

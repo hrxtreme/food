@@ -103,20 +103,19 @@ Vivamus accumsan. Donec molestie pede vel urna. Curabitur eget sem ornare felis 
                         <h5>How it Works</h5>
                         <ul>
                            <!-- <li><a href="#">Enter your location</a> </li> -->
-                            <li><a href="restaurants.php">Choose restaurant</a> </li>
-                            <li><a href="restaurants.php">Pricing page</a> </li>
-                            <li><a href="restaurants.php">Make order</a> </li>
-                            <li><a href="restaurants.php">Add to cart</a> </li>
-                           <!--  <li><a href="#">Choose meal</a> </li> -->
+                           <li><a href="registration.php">User Sign Up Page</a> </li> 
                             <li><a href="https://pay.google.com/about/learn/">Pay via UPI or Cash </a> </li> 
-                            <li><a href="restaurants.php">Wait for delivery</a> </li>
+                           
                         </ul>
                     </div> 
                      <div class="col-xs-12 col-sm-2 pages color-gray">
                         <h5>Pages</h5>
                         <ul>
                             <li><a href="index.php">Search results page</a> </li>
-                            <li><a href="registration.php">User Sign Up Page</a> </li>
+                            <li><a href="https://www.facebook.com/UbisoftIndiaStudios/">FaceBook</a> </li>
+                            <li><a href="https://www.instagram.com/ubisoftindiastudios/?hl=en">Instagram</a> </li>
+                            <li><a href="https://www.youtube.com/channel/UCYtwZG5LFaSw6RBS158V5sQ">Youtube</a> </li>
+                            
                             
                         </ul>
                     </div>
@@ -137,19 +136,22 @@ Vivamus accumsan. Donec molestie pede vel urna. Curabitur eget sem ornare felis 
                             <h5>Payment Options</h5>
                             <ul>
                                 <li>
-                                    <a href="#"> <img src="images/paypal.png" alt="Paypal"> </a>
+                                   <img src="images/Gpay.png" alt="Gpay"> </a>
                                 </li>
                                 <li>
-                                    <a href="#"> <img src="images/mastercard.png" alt="Mastercard"> </a>
+                                    <img src="images/UPI.png" alt="UPI"> </a>
                                 </li>
                                 <li>
-                                    <a href="#"> <img src="images/maestro.png" alt="Maestro"> </a>
+                                    <img src="images/PayTM.png" alt="PayTM"> </a>
                                 </li>
                                 <li>
-                                    <a href="#"> <img src="images/stripe.png" alt="Stripe"> </a>
+                                    <img src="images/PhonePay.png" alt="PhonePay"> </a>
                                 </li>
                                 <li>
-                                    <a href="#"> <img src="images/bitcoin.png" alt="Bitcoin"> </a>
+                                    <img src="images/Rupee.png" alt="Rupee"> </a>
+                                </li>
+                                <li>
+                                    <img src="images/mobikwik.png" alt="mobikwik"> </a>
                                 </li>
                             </ul>
                         </div>
