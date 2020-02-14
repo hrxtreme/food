@@ -318,19 +318,18 @@ session_start(); //start temp session until logout/browser closed
                         <ul>
                            <!-- <li><a href="#">Enter your location</a> </li> -->
                             <li><a href="restaurants.php">Choose restaurant</a> </li>
-                            <li><a href="restaurants.php">Pricing page</a> </li>
-                            <li><a href="restaurants.php">Make order</a> </li>
-                            <li><a href="restaurants.php">Add to cart</a> </li>
-                           <!--  <li><a href="#">Choose meal</a> </li> -->
                             <li><a href="https://pay.google.com/about/learn/">Pay via UPI or Cash </a> </li> 
-                            <li><a href="restaurants.php">Wait for delivery</a> </li>
+                            <li><a href="registration.php">User Sign Up Page</a> </li>
                         </ul>
                     </div> 
                      <div class="col-xs-12 col-sm-2 pages color-gray">
                         <h5>Pages</h5>
                         <ul>
                             <li><a href="index.php">Search results page</a> </li>
-                            <li><a href="registration.php">User Sign Up Page</a> </li>
+                            <li><a href="https://www.facebook.com/UbisoftIndiaStudios/">FaceBook</a> </li>
+                            <li><a href="https://www.instagram.com/ubisoftindiastudios/?hl=en">Instagram</a> </li>
+                            <li><a href="https://www.youtube.com/channel/UCYtwZG5LFaSw6RBS158V5sQ">Youtube</a> </li>
+                            
                             
                         </ul>
                     </div>
