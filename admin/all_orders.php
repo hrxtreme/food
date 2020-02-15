@@ -175,9 +175,11 @@ session_start();
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title">All user Orders</h4>
+                                <h6 class="card-subtitle">Export data to Copy, CSV, Excel, PDF & Print</h6>
                              
                                 <div class="table-responsive m-t-40">
-                                    <table id="myTable" class="table table-bordered table-striped">
+                                    <!-- <table id="myTable" class="table table-bordered table-striped"> -->
+                                    <table id="example23" class="table table-bordered table-striped" cellspacing="0" width="100%">
                                         <thead>
                                             <tr>
                                                 <th>Username</th>		

@@ -329,7 +329,7 @@ if(isset($_POST['submit'] )) {
                         <h5>Pages</h5>
                         <ul>
                             <li><a href="index.php">Search results page</a> </li>
-                            <li><a href="https://www.facebook.com/UbisoftIndiaStudios/">FaceBook</a> </li>
+                            <li><a href="https://www.facebook.com/UbisoftIndiaStudios/">Facebook</a> </li>
                             <li><a href="https://www.instagram.com/ubisoftindiastudios/?hl=en">Instagram</a> </li>
                             <li><a href="https://www.youtube.com/channel/UCYtwZG5LFaSw6RBS158V5sQ">Youtube</a> </li>
                             
