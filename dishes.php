@@ -233,7 +233,8 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                                         <!-- end:col -->
                                         <div class="col-xs-12 col-sm-12 col-lg-4 pull-right item-cart-info"> 
 										<span class="price pull-left" >₹<?php echo $product['price']; ?></span>
-										  <input class="b-r-0" type="text" name="quantity"  style="margin-left:30px;" value="1" size="2" />
+										   <input class="b-r-0" type="text" name="quantity"  style="margin-left:20px; width:50px;" value="1" min="1" max="9" maxlength="1" size="2" pattern="[1-9]{1}" oninvalid="setCustomValidity('Order Cart value invalid')"
+    onchange="try{setCustomValidity('')}catch(e){}"/>
 										  <input type="submit" class="btn theme-btn" style="margin-left:40px;" value="Add to cart" />
 										</div>
 										</form>
