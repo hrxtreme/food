@@ -37,9 +37,9 @@ session_start(); //start temp session until logout/browser closed
                     <a class="navbar-brand" href="index.php"> <img class="img-rounded" src="images/Ubieats_long.png" alt="" height= "50" width="150"> </a>
                     <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                         <ul class="nav navbar-nav">
-                            <li class="nav-item"> <a class="nav-link active" href="https://goto.ubisoft.org/jevef" target="_blank" >Canteen Menu <span class="sr-only">(current)</span></a> </li>
+                            <li class="nav-item"> <a class="nav-link active" href="https://goto.ubisoft.org/jevef" target="_blank" >Weekly Menu <span class="sr-only">(current)</span></a> </li>
                             <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li>
-                            <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Restaurants <span class="sr-only"></span></a> </li>
+                            <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Canteens <span class="sr-only"></span></a> </li>
                             
                            
 							<?php
@@ -71,7 +71,7 @@ session_start(); //start temp session until logout/browser closed
             <div class="hero-inner">
                 <div class="container text-center hero-text font-white">
                     <h1>Order Delivery & Take-Out </h1>
-                    <h5 class="font-white space-xs">Find restaurants, specials, and coupons for free</h5>
+                    <h5 class="font-white space-xs">Find your favorite food from ubisoft canteen</h5>
                     <div class="banner-form">
                         <form class="form-inline">
                             <div class="form-group">
@@ -207,7 +207,7 @@ session_start(); //start temp session until logout/browser closed
                 <!-- 3 block sections ends -->
                 <div class="row">
                     <div class="col-sm-12 text-center">
-                        <p class="pay-info">Pay by Cash on delivery</p>
+                        <p class="pay-info">Pay by UPI and Cash on delivery</p>
                     </div>
                 </div>
             </div>
@@ -265,8 +265,8 @@ session_start(); //start temp session until logout/browser closed
 																<div class="col-xs-12 col-sm-9 col-md-12 col-lg-9">
 																	<h5><a href="dishes.php?res_id='.$rows['rs_id'].'" >'.$rows['title'].'</a></h5> <span>'.$rows['address'].'</span>
 																	<div class="bottom-part">
-																		<div class="cost"><i class="fa fa-check"></i> Min ₹ 10,00</div>
-																		<div class="mins"><i class="fa fa-motorcycle"></i> 30 min</div>
+																		<div class="cost"><i class="fa fa-check"></i> Min ₹ 10.00</div>
+																		<div class="mins"><i class="fa fa-clock-o"></i> 20 min</div>
 																		<div class="ratings"> <span>
 																				<i class="fa fa-star"></i>
 																				<i class="fa fa-star"></i>

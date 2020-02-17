@@ -42,7 +42,7 @@ include_once 'product-action.php'; //including controller
                     <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                        <ul class="nav navbar-nav">
                             <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li>
-                            <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Restaurants <span class="sr-only"></span></a> </li>
+                            <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Canteens <span class="sr-only"></span></a> </li>
                             
 							<?php
 						if(empty($_SESSION["user_id"]))
@@ -97,8 +97,8 @@ include_once 'product-action.php'; //including controller
                                     <h6><a href="#"><?php echo $rows['title']; ?></a></h6>
                                     <p><?php echo $rows['address']; ?></p>
                                     <ul class="nav nav-inline">
-                                        <li class="nav-item"> <a class="nav-link active" href="#"><i class="fa fa-check"></i> Min ₹ 10,00</a> </li>
-                                        <li class="nav-item"> <a class="nav-link" href="#"><i class="fa fa-motorcycle"></i> 30 min</a> </li>
+                                        <li class="nav-item"> <a class="nav-link active" href="#"><i class="fa fa-check"></i> Min ₹ 10.00</a> </li>
+                                        <li class="nav-item"> <a class="nav-link" href="#"><i class="fa fa-clock-o"></i> 20 min</a> </li>
                                         <li class="nav-item ratings">
                                             <a class="nav-link" href="#"> <span>
                                     <i class="fa fa-star"></i>
@@ -258,56 +258,7 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                        
                     </div>
                     <!-- end:Bar -->
-                    <!-- SHUBHAM -->
-                    <!--
-                    <div class="col-xs-12 col-md-12 col-lg-3">
-                        <div class="sidebar-wrap">
-                           <div class="widget clearfix">
-                            
-                            <div class="widget-heading">
-                                <h3 class="widget-title text-dark">
-                              Popular tags
-                           </h3>
-                                <div class="clearfix"></div>
-                            </div>
-                            <div class="widget-body">
-                                <ul class="tags">
-                                    <li> <a href="#" class="tag">
-                                 Coupons
-                                 </a> </li>
-                                    <li> <a href="#" class="tag">
-                                 Discounts
-                                 </a> </li>
-                                    <li> <a href="#" class="tag">
-                                 Deals
-                                 </a> </li>
-                                    <li> <a href="#" class="tag">
-                                 Amazon 
-                                 </a> </li>
-                                    <li> <a href="#" class="tag">
-                                 Ebay
-                                 </a> </li>
-                                    <li> <a href="#" class="tag">
-                                 Fashion
-                                 </a> </li>
-                                    <li> <a href="#" class="tag">
-                                 Shoes
-                                 </a> </li>
-                                    <li> <a href="#" class="tag">
-                                 Kids
-                                 </a> </li>
-                                    <li> <a href="#" class="tag">
-                                 Travel
-                                 </a> </li>
-                                    <li> <a href="#" class="tag">
-                                 Hosting
-                                 </a> </li>
-                                </ul>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                     -->
+                    
                 </div>
                 <!-- end:row -->
             </div>

@@ -38,7 +38,7 @@ session_start();
                     <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                         <ul class="nav navbar-nav">
                             <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li>
-                            <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Restaurants <span class="sr-only"></span></a> </li>
+                            <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Canteens <span class="sr-only"></span></a> </li>
                             
 							<?php
 						if(empty($_SESSION["user_id"]))
@@ -145,8 +145,8 @@ session_start();
 															<div class="entry-dscr">
 																<h5><a href="dishes.php?res_id='.$rows['rs_id'].'" >'.$rows['title'].'</a></h5> <span>'.$rows['address'].' <a href="#">...</a></span>
 																<ul class="list-inline">
-																	<li class="list-inline-item"><i class="fa fa-check"></i> Min ₹ 10,00</li>
-																	<li class="list-inline-item"><i class="fa fa-motorcycle"></i> 30 min</li>
+																	<li class="list-inline-item"><i class="fa fa-check"></i> Min ₹ 10.00</li>
+																	<li class="list-inline-item"><i class="fa fa-clock-o"></i> 20 min</li>
 																</ul>
 															</div>
 															<!-- end:Entry description -->

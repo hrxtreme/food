@@ -78,8 +78,8 @@ if(isset($_POST['submit'] )) {
       
       if(strlen($_POST['username']) < 4) {
         $message = 'Username should be of atleast 4 characters';
-      } elseif (!preg_match('/^[A-Za-z][A-Za-z0-9]{7,19}$/', $_POST['username'])) {
-        $message = 'Please enter valid username';
+      } elseif (!preg_match('/^[A-Za-z][A-Za-z0-9]{5,15}$/', $_POST['username'])) {
+        $message = 'Please enter Ubisoft username';
       } elseif(mysqli_num_rows(mysqli_query($db, "SELECT username FROM users where username = '".$_POST['username']."' ")) > 0) {
         $message = 'Username taken! Please choose a different one.';
       } elseif (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL))  {
