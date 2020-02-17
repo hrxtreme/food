@@ -72,12 +72,14 @@ session_start(); //start temp session until logout/browser closed
 <section class="how-it-works">
             <div class="container" align="center" class="col-xs-12 col-sm-12 col-md-4 how-it-works-steps white-txt col1" style="border:1px solid white; padding-left: 0px;padding-right: 0px;">
             <div class="pen-title" class="col-xs-12 col-sm-12 col-md-4 how-it-works-steps white-txt col1" align="center" style="border:1px solid white">
-  <h1>About Us</h1> 
-</div>
-            <br><br><br><br>Vivamuslibero Auguer
-In sed neque id libero pretium luctus. Vivamus faucibus. Ut vitae elit. In hac habitasse platea dictumst. Proin et nisl ac orci tempus luctus. Aenean lacinia justo at nisi. Vestibulum sed eros sit amet nisl lobortis commodo. Suspendisse nulla. Vivamus ac lorem. Aliquam pulvinar purus at felis. Quisque convallis nulla id ipsum. Praesent vitae urna. Fusce blandit nunc nec mi. Praesent vestibulum hendrerit ante.
-
-Vivamus accumsan. Donec molestie pede vel urna. Curabitur eget sem ornare felis gravida vestibulum.Sed pulvinar, tellus in venenatis vehicula, lorem magna dignissim erat, in accumsan ante lorem sit amet lorem.
+  <h1 class="font-white space-xs">About Us</h1> 
+</div >
+            <br><br><br><br>
+<h5 class="font-white space-xs">Ubisoft is a creator of worlds, committed to enriching players' lives with original and memorable gaming experiences.
+A young, vibrant and passionate studio focused on building expertise on Mobile and Console Gaming and a Quality Control team dedicated to ensuring high quality games.
+Ubisoft opened its doors in Pune in 2008, and has never looked back. 2019 marks the 11th year of our presence in Pune. We are proud to be the only fully integrated gaming studio in India with 900+ talented employees.
+ The studio works in collaboration with worldwide Ubisoft studios on developing HD and mobile games and also hosts one of the biggest Quality Control teams in the group. 
+ We are a young and motivated workforce which has helped us build a very vibrant and passionate culture. We love games, we love gamers and we are thrilled to meet them in India. Check us out on our Social Media pages. </h5>
                 <!-- 3 block sections ends -->
                         </br></br></br></br>
             </div>
@@ -158,7 +160,7 @@ Vivamus accumsan. Donec molestie pede vel urna. Curabitur eget sem ornare felis 
                         <div class="col-xs-12 col-sm-4 address color-gray">
                             <h5>Address</h5>
                             <p>Kumar, Cerebrum IT Park, B3-5th & 6th floor, Marigold complex, Cybage Tower Rd, Kalyani Nagar, Pune, Maharashtra 411014</p>
-                            <h5>Phone: <a href="tel:+080000012222">080 000012 222</a></h5> </div>
+                            <h5>Phone: <a href="tel:+02066424500">020 6642 4500</a></h5> </div>
                         <div class="col-xs-12 col-sm-5 additional-info color-gray">
                             <h5>Addition informations</h5>
                             <p>Join the thousands of other Ubisoft employees who benefit from having their menus on their Desk</p>

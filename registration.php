@@ -375,7 +375,7 @@ if(isset($_POST['submit'] )) {
                         <div class="col-xs-12 col-sm-4 address color-gray">
                             <h5>Address</h5>
                             <p>Kumar, Cerebrum IT Park, B3-5th & 6th floor, Marigold complex, Cybage Tower Rd, Kalyani Nagar, Pune, Maharashtra 411014</p>
-                            <h5>Phone: <a href="tel:+080000012222">080 000012 222</a></h5> </div>
+                            <h5>Phone: <a href="tel:+02066424500">020 6642 4500</a></h5> </div>
                         <div class="col-xs-12 col-sm-5 additional-info color-gray">
                             <h5>Addition informations</h5>
                             <p>Join the thousands of other Ubisoft employees who benefit from having their menus on their Desk</p>
