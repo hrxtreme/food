@@ -38,7 +38,7 @@ session_start(); //start temp session until logout/browser closed
                     <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                         <ul class="nav navbar-nav">
                             <li class="nav-item"> <a class="nav-link active" href="https://goto.ubisoft.org/jevef" target="_blank" >Weekly Menu <span class="sr-only">(current)</span></a> </li>
-                            <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li>
+                            <!-- <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li> -->
                             <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Canteens <span class="sr-only"></span></a> </li>
                             
                            
@@ -134,7 +134,7 @@ session_start(); //start temp session until logout/browser closed
 						                       echo '  <div class="col-xs-12 col-sm-6 col-md-4 food-item">
 														<div class="food-item-wrap">
 															<div class="figure-wrap bg-image" data-image-src="admin/Res_img/dishes/'.$r['img'].'">
-																<div class="distance"><i class="fa fa-pin"></i>10m</div>
+																
 																<div class="rating pull-left"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
 																<div class="review pull-right"><a href="#">198 reviews</a> </div>
 															</div>
@@ -304,38 +304,8 @@ session_start(); //start temp session until logout/browser closed
                 <!-- top footer statrs -->
                 <div class="row top-footer">
                     <div class="col-xs-12 col-sm-3 footer-logo-block color-gray">
-                    <a href="inderx.php"> <center><img src="images/ubieats_sq.png" alt="Footer logo" height= "200" weidth="200"> </a> <span>Order Delivery &amp; Take-Out </span> </center> </div>
-                    <!-- <div class="col-xs-12 col-sm-2 about color-gray">
-                        <h5>About Us</h5>
-                        <ul>
-                            <li><a href="#">About us</a> </li>
-                            <li><a href="#">Our Team</a> </li>
-                            
-                        </ul>
-                    </div> -->
-                    <div class="col-xs-12 col-sm-3 payment-options color-gray">
-                            <h5>Payment Options</h5>
-                            <ul>
-                                <li>
-                                   <img src="images/Gpay.png" alt="Gpay"> </a>
-                                </li>
-                                <li>
-                                    <img src="images/UPI.png" alt="UPI"> </a>
-                                </li>
-                                <li>
-                                    <img src="images/PayTM.png" alt="PayTM"> </a>
-                                </li>
-                                <li>
-                                    <img src="images/PhonePay.png" alt="PhonePay"> </a>
-                                </li>
-                                <li>
-                                    <img src="images/Rupee.png" alt="Rupee"> </a>
-                                </li>
-                                <li>
-                                    <img src="images/mobikwik.png" alt="mobikwik"> </a>
-                                </li>
-                            </ul>
-                        </div>
+                    <a href="#"> <center><img src="images/ubieats_sq.png" alt="Footer logo" height= "200" weidth="200"> </a> <span>Order Delivery &amp; Take-Out </span> </center> </div>
+                    
                      <div class="col-xs-12 col-sm-2 how-it-works-links color-gray">
                         <h5>How it Works</h5>
                         <ul>
@@ -348,7 +318,7 @@ session_start(); //start temp session until logout/browser closed
                      <div class="col-xs-12 col-sm-2 pages color-gray">
                         <h5>Pages</h5>
                         <ul>
-                            <li><a href="index.php">Search results page</a> </li>
+                           
                             <li><a href="https://www.facebook.com/UbisoftIndiaStudios/" target="Blank">Facebook</a> </li>
                             <li><a href="https://www.instagram.com/ubisoftindiastudios/?hl=en" target="Blank">Instagram</a> </li>
                             <li><a href="https://www.youtube.com/channel/UCYtwZG5LFaSw6RBS158V5sQ" target="Blank">Youtube</a> </li>
