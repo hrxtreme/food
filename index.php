@@ -134,7 +134,7 @@ session_start(); //start temp session until logout/browser closed
 						                       echo '  <div class="col-xs-12 col-sm-6 col-md-4 food-item">
 														<div class="food-item-wrap">
 															<div class="figure-wrap bg-image" data-image-src="admin/Res_img/dishes/'.$r['img'].'">
-																<div class="distance"><i class="fa fa-pin"></i>1240m</div>
+																<div class="distance"><i class="fa fa-pin"></i>10m</div>
 																<div class="rating pull-left"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
 																<div class="review pull-right"><a href="#">198 reviews</a> </div>
 															</div>
@@ -227,14 +227,14 @@ session_start(); //start temp session until logout/browser closed
                             <nav class="primary pull-left">
                                 <ul>
                                     <li><a href="#" class="selected" data-filter="*">all</a> </li>
-									<?php 
-									// display categories here
+									<!-- <?php 
+									    // display categories here
 									$res= mysqli_query($db,"select * from res_category");
 									      while($row=mysqli_fetch_array($res))
 										  {
 											echo '<li><a href="#" data-filter=".'.$row['c_name'].'"> '.$row['c_name'].'</a> </li>';
 										  }
-									?>
+									?> -->
                                    
                                 </ul>
                             </nav>
