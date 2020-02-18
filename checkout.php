@@ -26,7 +26,7 @@ else{
 														
 														$success = "Thankyou ! Your Order Placed successfully!<p>Redirecting in <span id='counter'>5</span> second(s)</p>";
                                                        // alert ("Thankyou! Your Order Placed successfully!");
-                                                        header("refresh: 5; url=index.php");
+                                                        header("refresh: 3; url=index.php");
 														unset($_SESSION["cart_item"]);
 														
 														

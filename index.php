@@ -70,7 +70,7 @@ session_start(); //start temp session until logout/browser closed
         <section class="hero bg-image" data-image-src="images/img/main.jpeg">
             <div class="hero-inner">
                 <div class="container text-center hero-text font-white">
-                    <h1>Order Delivery & Take-Out </h1>
+                    <h1> Hot eats, Cold treats, UBIEATS </h1>
                     <h5 class="font-white space-xs">Find your favorite food from ubisoft canteen</h5>
                     <div class="banner-form">
                         <form class="form-inline">
