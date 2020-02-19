@@ -302,7 +302,7 @@ only screen and (max-width: 760px),
 																			  }
 																			   if($status=="in process")
 																			 { ?>
-																				<button type="button" class="btn btn-warning"><span class="fa fa-cog fa-spin"  aria-hidden="true" ></span>On a Way!</button>
+																				<button type="button" class="btn btn-warning"><span class="fa fa-cog fa-spin"  aria-hidden="true" ></span>on the way!</button>
 																			<?php
 																				}
 																			if($status=="closed")

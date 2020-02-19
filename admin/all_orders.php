@@ -228,7 +228,7 @@ session_start();
 																			  }
 																			   if($status=="in process")
 																			 { ?>
-																			<td> <button type="button" class="btn btn-warning"><span class="fa fa-cog fa-spin"  aria-hidden="true" ></span>On a Way!</button></td> 
+																			<td> <button type="button" class="btn btn-warning"><span class="fa fa-cog fa-spin"  aria-hidden="true" ></span>on the way!</button></td> 
 																			<?php
 																				}
 																			if($status=="closed")

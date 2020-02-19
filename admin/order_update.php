@@ -94,15 +94,8 @@ label.control-label {
   color: #777;
 }
 
-
-
-
-
-
-
-
 table { 
-	width: 650px; 
+	width: 550px; 
 	border-collapse: collapse; 
 	margin: auto;
 	margin-top:50px;
@@ -125,17 +118,14 @@ td, th {
 	text-align: left; 
 	font-size: 14px;
 	}
-
-
-
-	</style>
+</style>
 
 <link rel="shortcut icon" href="images/favicon.png"> 
 </head>
 
 <body>
 
-<div style="margin-left:50px;">
+<div style="margin-left:auto;">
  <form name="updateticket" id="updatecomplaint" method="post"> 
  
  
@@ -175,16 +165,10 @@ td, th {
       <td><b>Action</b></td>
       <td><input type="submit" name="update"  class="btn btn-primary" value="Submit">
 	   
-      <input name="Submit2" type="submit"  class="btn btn-danger"  value="Close this window " onClick="return f2();" style="cursor: pointer;"  /></td>
+      <input name="Submit2" type="submit"  class="btn btn-danger"  value="Close " onClick="return f2();" style="cursor: pointer;"  /></td>
     </tr>
 
 
-
-     
-   
-   
-
- 
 </table>
  </form>
 </div>
