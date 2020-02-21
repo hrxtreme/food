@@ -293,7 +293,7 @@ if(isset($_POST['submit'] )) {
                         <!-- end:Panel -->
                         <h4 class="m-t-20">Contact Customer Support</h4>
                         <p> If you're looking for more help or have a question to ask, or any suggestion for us, please </p>
-                        <p> <a href="mailto:hrushikesh.tavadarkar@ubisoft.com?Subject=Ubieats" class="btn theme-btn m-t-15">contact us</a> </p>
+                        <p> <a href="mailto:hrushikesh.tavadarkar@ubisoft.com;shubham.pote@ubisoft.com;neha.penshanwar@ubisoft.com?Subject=Ubieats-Help" class="btn theme-btn m-t-15">contact us</a> </p>
                         <!--<a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">Send Mail</a> -->
                      </div>
                      <!-- /WHY? -->
