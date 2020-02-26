@@ -7,10 +7,6 @@ error_reporting(0); // hide undefine index
 
 include("connection/connect.php"); // connection
 
-
-
-
-
 if(isset($_POST['submit'] )) {
   
     if(empty($_POST['firstname']) || empty($_POST['lastname']) || empty($_POST['email']) || empty($_POST['phone']) || empty($_POST['password'])|| empty($_POST['cpassword']) ) {
@@ -117,7 +113,6 @@ if(isset($_POST['submit'] )) {
 
 ?>
 
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -136,6 +131,9 @@ if(isset($_POST['submit'] )) {
     <link href="css/style.css" rel="stylesheet"> 
     
     <link rel="shortcut icon" href="images/favicon.png">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
 <body>
 
@@ -202,6 +200,8 @@ if(isset($_POST['submit'] )) {
                                  <div class="row">
                                     <div class="form-group col-sm-12">
                                        <label for="exampleInputEmail1">Username</label>
+                                       <a href="#" title="Data to Fill" data-toggle="popover" data-trigger="hover" data-content="Ankur Mishra's username will be amishra ">(i)</a>
+                                       
                                        <input class="form-control" type="text" name="username" id="example-text-input" placeholder="Ubisoft User Name" value="<?php echo isset($_POST["username"]) ? $_POST["username"] : ''; ?>"> 
                                     </div>
                                     <div class="form-group col-sm-6">
@@ -235,6 +235,7 @@ if(isset($_POST['submit'] )) {
                                     </div>
                    <div class="form-group col-sm-12">
                                        <label for="exampleTextarea">Delivery Address</label>
+                                       <a href="#" title="Data to Fill" data-toggle="popover" data-trigger="hover" data-content="Emp ID,&#10;Project Name,&#10;Floor No,&#10;Sub Team&#10;">(i)</a>
                                        <textarea class="form-control" id="exampleTextarea" placeholder="Emp ID,&#10;Project Name,&#10;Floor No,&#10;Sub Team&#10;" name="address" rows="5"></textarea>
                                     </div>
                                    
@@ -305,7 +306,7 @@ if(isset($_POST['submit'] )) {
             <footer class="footer">
                <div class="container">
                 <!-- top footer statrs -->
-                <<div class="row top-footer">
+                <div class="row top-footer">
                     <div class="col-xs-12 col-sm-3 footer-logo-block color-gray">
                     <a href="#"> <center><img src="images/ubieats_sq.png" alt="Footer logo" height= "200" weidth="200"> </a> <span>Order Delivery &amp; Take-Out </span> </center> </div>
                     
@@ -393,7 +394,11 @@ if(isset($_POST['submit'] )) {
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/headroom.js"></script>
     <script src="js/foodpicky.min.js"></script>
-
+    <script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
+</script>
 <script type="text/javascript">
     
     $(document).ready(function() {
