@@ -200,7 +200,7 @@ if(isset($_POST['submit'] )) {
                                  <div class="row">
                                     <div class="form-group col-sm-12">
                                        <label for="exampleInputEmail1">Username</label>
-                                       <a href="#" title="Data to Fill" data-toggle="popover" data-trigger="hover" data-content="Ankur Mishra's username will be amishra ">(i)</a>
+                                       <a href="#" title="Data to Fill" data-toggle="popover" data-trigger="hover" data-content="Ankur Mishra's username will be amishra "><i class="fa fa-info-circle"></i></a>
                                        
                                        <input class="form-control" type="text" name="username" id="example-text-input" placeholder="Ubisoft User Name" value="<?php echo isset($_POST["username"]) ? $_POST["username"] : ''; ?>"> 
                                     </div>
@@ -235,7 +235,7 @@ if(isset($_POST['submit'] )) {
                                     </div>
                    <div class="form-group col-sm-12">
                                        <label for="exampleTextarea">Delivery Address</label>
-                                       <a href="#" title="Data to Fill" data-toggle="popover" data-trigger="hover" data-content="Emp ID,&#10;Project Name,&#10;Floor No,&#10;Sub Team&#10;">(i)</a>
+                                       <a href="#" title="Data to Fill" data-toggle="popover" data-trigger="hover" data-content="Emp ID,&#10;Project Name,&#10;Floor No,&#10;Sub Team&#10;"><i class="fa fa-info-circle"></i></a>
                                        <textarea class="form-control" id="exampleTextarea" placeholder="Emp ID,&#10;Project Name,&#10;Floor No,&#10;Sub Team&#10;" name="address" rows="5"></textarea>
                                     </div>
                                    
