@@ -98,7 +98,7 @@ include_once 'product-action.php'; //including controller
                                     <p><?php echo $rows['address']; ?></p>
                                     <ul class="nav nav-inline">
                                         <li class="nav-item"> <a class="nav-link active" href="#"><i class="fa fa-check"></i> Min ₹ 10.00</a> </li>
-                                        <li class="nav-item"> <a class="nav-link" href="#"><i class="fa fa-clock-o"></i> 20 min</a> </li>
+                                        <li class="nav-item"> <a class="nav-link" href="#"><i class="fa fa-clock-o"></i> 15 min</a> </li>
                                         <li class="nav-item ratings">
                                             <a class="nav-link" href="#"> <span>
                                     <i class="fa fa-star"></i>
@@ -179,7 +179,7 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                                     <div class="price-wrap text-xs-center">
                                         <p>TOTAL</p>
                                         <h3 class="value"><strong><?php echo "₹".$item_total; ?></strong></h3>
-                                        <p>Free Shipping</p>
+                                        <!--<p>Free Shipping</p>-->
                                         <a href="checkout.php?res_id=<?php echo $_GET['res_id'];?>&action=check"  class="btn theme-btn btn-lg">Checkout</a>
                                     </div>
                                 </div>

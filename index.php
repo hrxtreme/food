@@ -135,8 +135,8 @@ session_start(); //start temp session until logout/browser closed
 														<div class="food-item-wrap">
 															<div class="figure-wrap bg-image" data-image-src="admin/Res_img/dishes/'.$r['img'].'">
 																
-																<div class="rating pull-left"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
-																<div class="review pull-right"><a href="#">198 reviews</a> </div>
+																s
+																
 															</div>
 															<div class="content">
 																<h5><a href="dishes.php?res_id='.$r['rs_id'].'">'.$r['title'].'</a></h5>
@@ -266,7 +266,7 @@ session_start(); //start temp session until logout/browser closed
 																	<h5><a href="dishes.php?res_id='.$rows['rs_id'].'" >'.$rows['title'].'</a></h5> <span>'.$rows['address'].'</span>
 																	<div class="bottom-part">
 																		<div class="cost"><i class="fa fa-check"></i> Min ₹ 10.00</div>
-																		<div class="mins"><i class="fa fa-clock-o"></i> 20 min</div>
+																		<div class="mins"><i class="fa fa-clock-o"></i> 15 min</div>
 																		<div class="ratings"> <span>
 																				<i class="fa fa-star"></i>
 																				<i class="fa fa-star"></i>

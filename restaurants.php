@@ -146,7 +146,7 @@ session_start();
 																<h5><a href="dishes.php?res_id='.$rows['rs_id'].'" >'.$rows['title'].'</a></h5> <span>'.$rows['address'].' <a href="#">...</a></span>
 																<ul class="list-inline">
 																	<li class="list-inline-item"><i class="fa fa-check"></i> Min ₹ 10.00</li>
-																	<li class="list-inline-item"><i class="fa fa-clock-o"></i> 20 min</li>
+																	<li class="list-inline-item"><i class="fa fa-clock-o"></i> 15 min</li>
 																</ul>
 															</div>
 															<!-- end:Entry description -->

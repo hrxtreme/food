@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>login</title>
+  <title>Ubieats Login</title>
   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 
@@ -58,7 +58,8 @@ if(isset($_POST['submit']))   // if button is submit
 <!-- Button Mixin-->
 <!-- Pen Title-->
 <div class="pen-title">
-  <h1>Login Form</h1>
+  <!-- <h1>Ubieats</h1> -->
+  <a class="navbar-brand" href="login.php"> <img class="img-rounded" src="images/Ubieats_login.png" alt="" height= "80" width="200"> </a>
 </div>
 <!-- Form Module-->
 <div class="module form-module">

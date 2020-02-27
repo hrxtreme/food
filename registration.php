@@ -148,7 +148,7 @@ if(isset($_POST['submit'] )) {
                   <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                      <ul class="nav navbar-nav">
               <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li>
-                            <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Restaurants <span class="sr-only"></span></a> </li>
+                            <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Canteens <span class="sr-only"></span></a> </li>
                             
               <?php
             if(empty($_SESSION["user_id"]))
@@ -199,42 +199,42 @@ if(isset($_POST['submit'] )) {
                               <form action="" method="post">
                                  <div class="row">
                                     <div class="form-group col-sm-12">
-                                       <label for="exampleInputEmail1">Username</label>
+                                       <label for="exampleInputEmail1"><b>Username</b></label>
                                        <a href="#" title="Data to Fill" data-toggle="popover" data-trigger="hover" data-content="Ankur Mishra's username will be amishra "><i class="fa fa-info-circle"></i></a>
                                        
                                        <input class="form-control" type="text" name="username" id="example-text-input" placeholder="Ubisoft User Name" value="<?php echo isset($_POST["username"]) ? $_POST["username"] : ''; ?>"> 
                                     </div>
                                     <div class="form-group col-sm-6">
-                                       <label for="exampleInputEmail1">First Name</label>
+                                       <label for="exampleInputEmail1"><b>First Name</b></label>
                                        <input class="form-control" type="text" name="firstname" id="example-text-input" placeholder="First Name" value="<?php echo isset($_POST["firstname"]) ? $_POST["firstname"] : ''; ?>"> 
                                     </div>
                                     <div class="form-group col-sm-6">
-                                       <label for="exampleInputEmail1">Last Name</label>
+                                       <label for="exampleInputEmail1"><b>Last Name</b></label>
                                        <input class="form-control" type="text" name="lastname" id="example-text-input-2" placeholder="Last Name" value="<?php echo isset($_POST["lastname"]) ? $_POST["lastname"] : ''; ?>"> 
                                     </div>
                                     <div class="form-group col-sm-6">
-                                       <label for="exampleInputEmail1">Email address</label>
+                                       <label for="exampleInputEmail1"><b>Email address</b></label>
                                        <input type="text" class="form-control" name="email" onblur="validateEmail(this);" id="exampleInputEmail1" 
                                        value="<?php echo isset($_POST["email"]) ? $_POST["email"] : ''; ?>"
                                        aria-describedby="emailHelp" placeholder="Enter Ubisoft email"> <small id="emailHelp" class="form-text text-muted">We"ll never share your email with anyone else.</small> 
                                     </div>
                                     <div class="form-group col-sm-6">
-                                       <label for="exampleInputEmail1">Phone number</label>
+                                       <label for="exampleInputEmail1"><b>Phone number</b></label>
                                        <input class="form-control only-numeric" type="text" name="phone" maxlength="10"   id="example-tel-input-3" 
                                         value="<?php echo isset($_POST["phone"]) ? $_POST["phone"] : ''; ?>"
                                        placeholder="Contact Number"> <small class="form-text text-muted">We"ll never share your phone number with anyone else.</small> 
                                     </div>
                                     <div class="form-group col-sm-6">
-                                       <label for="exampleInputPassword1">Password</label>
+                                       <label for="exampleInputPassword1"><b>Password</b></label>
                                        <input type="password" class="form-control" name="password" id="exampleInputPassword1"
                                         placeholder="Password"> 
                                     </div>
                                     <div class="form-group col-sm-6">
-                                       <label for="exampleInputPassword1">Repeat password</label>
+                                       <label for="exampleInputPassword1"><b>Repeat password</b></label>
                                        <input type="password" class="form-control" name="cpassword" id="exampleInputPassword2" placeholder="Password" > 
                                     </div>
                    <div class="form-group col-sm-12">
-                                       <label for="exampleTextarea">Delivery Address</label>
+                                       <label for="exampleTextarea"><b>Delivery Address</b></label>
                                        <a href="#" title="Data to Fill" data-toggle="popover" data-trigger="hover" data-content="Emp ID,&#10;Project Name,&#10;Floor No,&#10;Sub Team&#10;"><i class="fa fa-info-circle"></i></a>
                                        <textarea class="form-control" id="exampleTextarea" placeholder="Emp ID,&#10;Project Name,&#10;Floor No,&#10;Sub Team&#10;" name="address" rows="5"></textarea>
                                     </div>
