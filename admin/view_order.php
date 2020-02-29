@@ -239,7 +239,7 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
                                                         if($status=="" or $status=="NULL")
                                                         {
                                                         ?>
-                                                        <td> <center><button type="button" class="btn btn-info" style="font-weight:bold;"><span class="fa fa-bars"  aria-hidden="true" >Dispatch</button></center></td>
+                                                        <td> <center><button type="button" class="btn btn-info" style="font-weight:bold;"><span class="fa fa-bars"  aria-hidden="true" > Placed</button></center></td>
                                                         <?php 
                                                             }
                                                             if($status=="in process")

@@ -223,18 +223,18 @@ session_start();
 																			if($status=="" or $status=="NULL")
 																			{
 																			?>
-																			<td> <button type="button" class="btn btn-info" style="font-weight:bold;"><span class="fa fa-bars"  aria-hidden="true" >Dispatch</button></td>
+																			<td> <button type="button" class="btn btn-info" style="font-weight:bold;"><span class="fa fa-bars"  aria-hidden="true" > Placed</button></td>
 																		   <?php 
 																			  }
 																			   if($status=="in process")
 																			 { ?>
-																			<td> <button type="button" class="btn btn-warning"><span class="fa fa-cog fa-spin"  aria-hidden="true" ></span>on the way!</button></td> 
+																			<td> <button type="button" class="btn btn-warning"><span class="fa fa-cog fa-spin"  aria-hidden="true" ></span> on the way!</button></td> 
 																			<?php
 																				}
 																			if($status=="closed")
 																				{
 																			?>
-																			<td> <button type="button" class="btn btn-success" ><span  class="fa fa-check-circle" aria-hidden="true">Delivered</button></td> 
+																			<td> <button type="button" class="btn btn-success" ><span  class="fa fa-check-circle" aria-hidden="true"> Delivered</button></td> 
 																			<?php 
 																			} 
 																			?>

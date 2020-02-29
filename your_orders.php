@@ -220,9 +220,9 @@ only screen and (max-width: 760px),
                         <div class="col-xs-12 col-sm-5 col-md-5 col-lg-3">
                           
                           
-                            <div class="widget clearfix">
+                            <!-- <div class="widget clearfix">
                                 <!-- /widget heading -->
-                                <div class="widget-heading">
+                              <!--  <div class="widget-heading">
                                     <h3 class="widget-title text-dark">
                                  Popular tags
                               </h3>
@@ -250,7 +250,7 @@ only screen and (max-width: 760px),
                                     </a> </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> -->
                             <!-- end:Widget -->
                         </div>
                         <div class="col-xs-12 col-sm-7 col-md-7 ">
@@ -297,7 +297,7 @@ only screen and (max-width: 760px),
 																			if($status=="" or $status=="NULL")
 																			{
 																			?>
-																			<button type="button" class="btn btn-info" style="font-weight:bold;">Dispatch</button>
+																			<button type="button" class="btn btn-info" style="font-weight:bold;"> Placed</button>
 																		   <?php 
 																			  }
 																			   if($status=="in process")

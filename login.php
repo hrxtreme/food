@@ -59,7 +59,7 @@ if(isset($_POST['submit']))   // if button is submit
 <!-- Pen Title-->
 <div class="pen-title">
   <!-- <h1>Ubieats</h1> -->
-  <a class="navbar-brand" href="login.php"> <img class="img-rounded" src="images/Ubieats_login.png" alt="" height= "80" width="200"> </a>
+  <a class="navbar-brand" href="login.php"> <img class="img-rounded" src="images/Ubieats_login.png" alt="" height= "100" width="auto"> </a>
 </div>
 <!-- Form Module-->
 <div class="module form-module">

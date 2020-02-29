@@ -159,7 +159,7 @@ else{
                                     <div class="payment-option">
                                                 <div style = "width:100%;padding-bottom: 20px;padding-top: 20px;" " class="custom-control custom-radio  ">
                                                     <input name="mod" id="radioStacked1" checked value="COD" type="radio" class="custom-control-input"> 
-                                                    <span class="custom-control-indicator" style="top: 20px;"></span> <span class="custom-control-description">Payment on delivery </span>
+                                                    <span class="custom-control-indicator" style="top: 20px;"></span> <span class="custom-control-description">Payment on Pickup </span>
                                                     <span style = "margin-left:-700px" class="pull-right"><a href="images/googlepay.jpg">Pay Via UPI </a> </span>
                                                     <span style = "margin-left:-700px" class="pull-right"> <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open QR Code</button> </span>
                                                     <!-- <br> <span >Please pay while you pick-up your food in the canteen.</span> -->
