@@ -37,7 +37,7 @@ session_start(); //start temp session until logout/browser closed
                     <a class="navbar-brand" href="index.php"> <img class="img-rounded" src="images/Ubieats_long.png" alt="" height= "50" width="150"> </a>
                     <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                         <ul class="nav navbar-nav">
-                            <li class="nav-item"> <a class="nav-link active" href="https://goto.ubisoft.org/jevef" target="_blank" >Weekly Menu <span class="sr-only">(current)</span></a> </li>
+                            <li class="nav-item"> <a class="nav-link active" href="https://goto.ubisoft.org/jduny" target="_blank" >Weekly Menu <span class="sr-only">(current)</span></a> </li>
                             <!-- <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li> -->
                             <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Canteens <span class="sr-only"></span></a> </li>
                             
@@ -75,11 +75,11 @@ session_start(); //start temp session until logout/browser closed
                     <div class="banner-form">
                         <form class="form-inline">
                             <div class="form-group">
-                                <label class="sr-only" for="exampleInputAmount">I would like to eat....</label>
+                                <label style= "display:none" class="sr-only" for="exampleInputAmount">I would like to ....</label>
                                 <div class="form-group">
-                                    <input type="text" class="form-control form-control-lg" id="exampleInputAmount" placeholder="I would like to eat...."> </div>
+                                    <input style= "display:none" type="text" class="form-control form-control-lg" id="exampleInputAmount" placeholder="I would like to eat...."> </div>
                             </div>
-                            <button onclick="location.href='restaurants.php'" type="button" class="btn theme-btn btn-lg">Search food</button>
+                            <button onclick="location.href='restaurants.php'" type="button" class="btn theme-btn btn-lg">Select Canteen</button>
                         </form>
                     </div>
                     <div class="steps">

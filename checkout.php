@@ -180,7 +180,7 @@ else{
                                             <h4 class="modal-title">UPI QR Code</h4>
                                             </div>
                                             <div class="modal-body">
-                                            <p><img src="images/google.jpg" alt="GooglePay"></p>
+                                            <p><center><img src="images/google2.jpg" alt="GooglePay" width="500px" height="500px"></center></p>
                                             </div>
                                             <div class="modal-footer">
                                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

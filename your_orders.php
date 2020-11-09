@@ -266,7 +266,7 @@ only screen and (max-width: 760px),
 							  <th>price</th>
 							   <th>status</th>
 							     <th>Date</th>
-								   <th>Action</th>
+								   <!-- <th>Action</th> -->
 							  
 							</tr>
 						  </thead>
@@ -328,7 +328,7 @@ only screen and (max-width: 760px),
 														   
 														   </td>
 														  <td data-column="Date"> <?php echo $row['date']; ?></td>
-														   <td data-column="Action"> <a href="delete_orders.php?order_del=<?php echo $row['o_id'];?>" onclick="return confirm('Are you sure you want to cancel your order?');" class="btn btn-danger btn-flat btn-addon btn-xs m-b-10"><i class="fa fa-trash-o" style="font-size:16px"></i></a> 
+														   <!-- <td data-column="Action"> <a href="delete_orders.php?order_del=<?php echo $row['o_id'];?>" onclick="return confirm('Are you sure you want to cancel your order?');" class="btn btn-danger btn-flat btn-addon btn-xs m-b-10"><i class="fa fa-trash-o" style="font-size:16px"></i></a>  -->
 															</td>
 														 
 												</tr>

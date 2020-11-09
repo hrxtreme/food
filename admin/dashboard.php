@@ -222,7 +222,7 @@ else
 													$rws=mysqli_num_rows($result);
 													
 													echo $rws;?></h2>
-                                    <p class="m-b-0">Employees</p>
+                                    <p class="m-b-0">Users</p>
                                 </div>
                             </div>
                         </div>
